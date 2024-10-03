@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Merriweather+Sans:wght@400;700&amp;display=swap");
+
 body {
-  font-family: 'Lato', sans-serif;
   color: #040000;
 }
 
@@ -837,4 +836,56 @@ a:focus {
 }
 
 /* end footer section*/
+
+    /* sharing buttons share*/
+
+    .share-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 50px;
+    }
+
+    .share-btn {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s ease;
+      padding: 4px;
+      border-radius: 4px;
+    }
+
+    .share-btn img {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* تأثير عند مرور الماوس على الأزرار */
+    .share-btn:hover {
+      transform: scale(1.1);
+    }
+
+    /* تخصيص الألوان عند مرور الماوس */
+    .share-btn.facebook:hover {
+      background-color: #3b5998;
+    }
+
+    .share-btn.x-twitter:hover {
+      background-color: #1da1f2;
+    }
+
+    .share-btn.pinterest:hover {
+      background-color: #bd081c;
+    }
+
+    .share-btn.whatsapp:hover {
+      background-color: #25d366;
+    }
+
+    .share-btn.linkedin:hover {
+      background-color: #0077b5;
+    }
+
+    /* end sharing buttons share*/
+  
 /*# sourceMappingURL=style.css.map */
