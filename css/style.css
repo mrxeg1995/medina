@@ -6,6 +6,11 @@ body {
   color: #040000;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .layout_padding {
   padding-top: 120px;
   padding-bottom: 120px;
